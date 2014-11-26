@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561FD7D71A2642F3001CF7C8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561FD7D61A2642F3001CF7C8 /* OpenGL.framework */; };
+		561FD7D81A264301001CF7C8 /* OpenGL.framework in Resources */ = {isa = PBXBuildFile; fileRef = 561FD7D61A2642F3001CF7C8 /* OpenGL.framework */; };
+		56B897431A8C140B006E0743 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B897421A8C140B006E0743 /* SDL2.framework */; };
+		56F6A14E1DC8FA760026A2C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56F6A14A1DC8FA760026A2C8 /* main.cpp */; };
+		56F6A14F1DC8FA760026A2C8 /* map.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 56F6A14B1DC8FA760026A2C8 /* map.bmp */; };
+		56F6A1501DC8FA760026A2C8 /* textures.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 56F6A14C1DC8FA760026A2C8 /* textures.bmp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56F196F71A2B666B0059FCEE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		561FD7D61A2642F3001CF7C8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		56ABC34C1A2640840012E115 /* Wolfenstein 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wolfenstein 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B897421A8C140B006E0743 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		56F6A1491DC8FA760026A2C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Wolfenstein 3D/Info.plist"; sourceTree = SOURCE_ROOT; };
+		56F6A14A1DC8FA760026A2C8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Wolfenstein 3D/main.cpp"; sourceTree = SOURCE_ROOT; };
+		56F6A14B1DC8FA760026A2C8 /* map.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = map.bmp; path = "Wolfenstein 3D/map.bmp"; sourceTree = SOURCE_ROOT; };
+		56F6A14C1DC8FA760026A2C8 /* textures.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = textures.bmp; path = "Wolfenstein 3D/textures.bmp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56ABC3491A2640840012E115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B897431A8C140B006E0743 /* SDL2.framework in Frameworks */,
+				561FD7D71A2642F3001CF7C8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56ABC3431A2640840012E115 = {
+			isa = PBXGroup;
+			children = (
+				56B897421A8C140B006E0743 /* SDL2.framework */,
+				561FD7D61A2642F3001CF7C8 /* OpenGL.framework */,
+				56ABC34E1A2640840012E115 /* Wolfenstein 3D */,
+				56ABC34D1A2640840012E115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56ABC34D1A2640840012E115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56ABC34C1A2640840012E115 /* Wolfenstein 3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56ABC34E1A2640840012E115 /* Wolfenstein 3D */ = {
+			isa = PBXGroup;
+			children = (
+				56F6A14A1DC8FA760026A2C8 /* main.cpp */,
+				56F6A14B1DC8FA760026A2C8 /* map.bmp */,
+				56F6A14C1DC8FA760026A2C8 /* textures.bmp */,
+				56ABC34F1A2640840012E115 /* Supporting Files */,
+			);
+			name = "Wolfenstein 3D";
+			path = "[Mac] Wolfenstein 3D";
+			sourceTree = "<group>";
+		};
+		56ABC34F1A2640840012E115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56F6A1491DC8FA760026A2C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56ABC34B1A2640840012E115 /* Wolfenstein 3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56ABC3691A2640840012E115 /* Build configuration list for PBXNativeTarget "Wolfenstein 3D" */;
+			buildPhases = (
+				56ABC3481A2640840012E115 /* Sources */,
+				56ABC3491A2640840012E115 /* Frameworks */,
+				56ABC34A1A2640840012E115 /* Resources */,
+				56F196F71A2B666B0059FCEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wolfenstein 3D";
+			productName = "[Mac] Wolfenstein 3D";
+			productReference = 56ABC34C1A2640840012E115 /* Wolfenstein 3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56ABC3441A2640840012E115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jakub Powierza";
+				TargetAttributes = {
+					56ABC34B1A2640840012E115 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 56ABC3471A2640840012E115 /* Build configuration list for PBXProject "Wolfenstein 3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56ABC3431A2640840012E115;
+			productRefGroup = 56ABC34D1A2640840012E115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56ABC34B1A2640840012E115 /* Wolfenstein 3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56ABC34A1A2640840012E115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6A1501DC8FA760026A2C8 /* textures.bmp in Resources */,
+				561FD7D81A264301001CF7C8 /* OpenGL.framework in Resources */,
+				56F6A14F1DC8FA760026A2C8 /* map.bmp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56ABC3481A2640840012E115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6A14E1DC8FA760026A2C8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56ABC3671A2640840012E115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		56ABC3681A2640840012E115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		56ABC36A1A2640840012E115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Wolfenstein 3D/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jakub-Powierza.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56ABC36B1A2640840012E115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Wolfenstein 3D/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jakub-Powierza.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56ABC3471A2640840012E115 /* Build configuration list for PBXProject "Wolfenstein 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56ABC3671A2640840012E115 /* Debug */,
+				56ABC3681A2640840012E115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56ABC3691A2640840012E115 /* Build configuration list for PBXNativeTarget "Wolfenstein 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56ABC36A1A2640840012E115 /* Debug */,
+				56ABC36B1A2640840012E115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56ABC3441A2640840012E115 /* Project object */;
+}
